@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   name: ocp4-kt
 spec:
-  replicas: 3
+  replicas: 1
   selector:
     matchLabels:
       app: ocp4-kt
