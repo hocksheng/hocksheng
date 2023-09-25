@@ -8,3 +8,4 @@ spec:
     - name: ocp4-kt
   port:
     - targetPort: 8080
+  host: ocp4-kt-argocd.apps.ocp.example.com
