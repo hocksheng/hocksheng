@@ -6,5 +6,5 @@ spec:
   to:
     kind: Service
     name: ocp4-kt
-  port:
-    targetPort: ocp4-kt
+port:
+  targetPort: ocp4-kt
