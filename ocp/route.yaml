@@ -2,10 +2,11 @@ apiVersion: v1
 kind: Route
 metadata:
   - name: ocp4-kt
+    namespace: argocd
 spec:
   to:
     - kind: Service
-    - name: ocp4-kt
+      name: ocp4-kt
   port:
     - targetPort: 8080
   host: ocp4-kt-argocd.apps.ocp.example.com
