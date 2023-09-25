@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
         - name: ocp4-kt
-          image: quay.io/terrencejun3210/ocp4-kt:v1
+          image: quay.io/terrencejun3210/ocp4-kt@sha256:d76b7055c82794c6cb91828c9b012babeaec0c9b655ea2b36cd408afeedbcf26
           ports:
             - containerPort: 80
