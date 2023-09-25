@@ -3,6 +3,7 @@ kind: Route
 metadata:
   name: ocp4-kt
 spec:
+  host: ocp4-kt-argocd.apps.ocp4.examle.com
   to:
     kind: Service
     name: ocp4-kt
