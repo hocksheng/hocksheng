@@ -4,4 +4,10 @@ metadata:
   name: nginx
 spec:
   replicas: 3
-
+  template:
+    spec:
+      containers:
+      - name: nginx
+        env: 
+        - name: TZ
+          value: "Asia/Singapore"
