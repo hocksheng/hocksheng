@@ -15,4 +15,7 @@ spec:
           valueFrom:
             configMapKeyRef:
               name: nginx-tz
+              key: 
+              - nginx
+              - Timezone
               
