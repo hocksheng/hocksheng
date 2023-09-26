@@ -7,9 +7,9 @@ resources:
 images:
 - name: nginx
   newTag: stable
-replicas:
-- name: nginx
-  count: 4
+#replicas:
+#- name: nginx
+#  count: 4
 patches:
 - path: patch-deployment.yaml
   target:
