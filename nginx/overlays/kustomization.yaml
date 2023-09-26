@@ -11,8 +11,7 @@ images:
 #- name: nginx
 #  count: 3
 patches:
-- ./patch-deployment.yaml
-#- path: patch-deployment.yaml
-#  target:
-#    kind: Deployment
-#    name: nginx
+- path: patch-deployment.yaml
+  target:
+    kind: Deployment
+    name: nginx
