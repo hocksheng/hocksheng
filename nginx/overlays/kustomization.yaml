@@ -12,6 +12,17 @@ configMapGenerator:
 - name: nginx-tz
   files:
   - nginx-tz.properties
+
+secretGenerator:
+- name: nginx-secret
+  envs:
+  -  nginx.env
+  files:
+  - nginx.env
+  literals:
+  - user=admin
+  - password=qwe123
+
 #replicas:
 #- name: nginx
 #  count: 4
