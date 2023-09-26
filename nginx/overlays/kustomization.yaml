@@ -8,6 +8,10 @@ images:
 - name: nginx
   newTag: stable
 
+configMapGenerator:
+- name: nginx-tz
+  files:
+  - nginx-tz.properties
 #replicas:
 #- name: nginx
 #  count: 4
