@@ -15,7 +15,7 @@ spec:
         - configMapRef:
             name: nginx-tz
         volumeMounts:
-        - mountPath: "/etc/"
+        - mountPath: "/etc/secrets"
           name: nginx-secrets
       volumes:
       - name: nginx-secrets
