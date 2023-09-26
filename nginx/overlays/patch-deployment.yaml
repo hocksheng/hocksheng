@@ -11,3 +11,8 @@ spec:
         env: 
         - name: TZ
           value: "Asia/Singapore"
+        - name: config
+          valueFrom:
+            configMapKeyRef:
+              name: nginx-tz
+              
