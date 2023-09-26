@@ -14,5 +14,12 @@ spec:
         envFrom:
         - configMapRef:
             name: nginx-tz
+        volumeMounts:
+        - mountPath: "/etc/"
+          name: nginx-secrets
+      volumes:
+      - name: nginx-secrets
+        secret:
+          secretName: nginx-secrets
 
               
