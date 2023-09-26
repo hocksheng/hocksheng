@@ -13,9 +13,7 @@ spec:
           value: "Asia/Singapore"
         - name: config
           valueFrom:
-            configMapKeyRef:
+            configMapRef:
               name: nginx-tz
-              key: 
-              - nginx
-              - Timezone
+
               
